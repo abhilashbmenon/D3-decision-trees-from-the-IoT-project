@@ -1,0 +1,77 @@
+ {
+            "name": "CLUSTER",
+            "children": [
+
+
+                { "name": "Cluster 0 (156 users):",
+                    "children":[{"name":"NO"}]},
+
+
+                {
+                    "name": "Cluster 1 (34 users):",
+                    "children": [{"name":"YES"}]},
+
+                {
+                    "name": "Cluster 2: (6 users)",
+                    "children": [
+                        { "name": "WHO",
+                            "children":[{"name":"Unknown:  NO"},{"name":"Colleague:  REASON", "children":[{"name":"Safety purposes:  NO"},
+                                {"name":"Commercial purposes:  NO"},
+                                {"name":"Social-related purposes:  YES"},
+                                {"name":"Your Convenience:  YES"},
+                                {"name":"Health-related purposes:  YES"},
+                                {"name":"None:  NO"}]},
+                                {"name":"Friend:  NO"},{"name":"Own device:  YES"},{"name":"Business:  YES"},
+                                {"name":"Employer:  WHERE", "children":[{"name":"Your place:  YES"},
+                                    {"name":"Someone else's place:  YES"},
+                                    {"name":"Semi-public place:  NO"},
+                                    {"name":"Public space:  YES"}]},{"name":"Government:  WHERE", "children":[{"name":"Your place:  NO"},
+                                    {"name":"Someone else's place:  NO"},
+                                    {"name":"Semi-public place:  NO"},
+                                    {"name":"Public space:  YES"}]}]}
+                    ]
+                },
+
+                {
+                    "name": "Cluster 3 (4 users):",
+                    "children": [
+                        { "name": "WHAT",
+                            "children":[
+                                {"name":"PhoneID:  NO"},
+                                {"name":"PhoneID>identity:  NO"},
+
+                                {"name":"Location:  PERSISTENCE", "children":[{"name":"Once:  YES"},
+                                    {"name":"Always:  NO"}]},
+                                {"name":"Location>presence:  NO"},
+
+                                {"name":"Voice:  NO"},
+                                {"name":"Voice>gender:  YES"},
+                                {"name":"Voice>age :  YES"},
+                                {"name":"Voice>identity:  NO"},
+                                {"name":"Voice>presence:  NO"},
+                                {"name":"Voice>mood:  YES"},
+
+                                {"name":"Photo:  NO"},
+                                {"name":"Photo>gender:  NO"},
+                                {"name":"Photo>age:  YES"},
+                                {"name":"Photo>identity:  YES"},
+                                {"name":"Photo>presence:  NO"},
+                                {"name":"Photo>mood:  NO"},
+
+                                {"name":"Video:  NO"},
+                                {"name":"Video>gender:  NO"},
+                                {"name":"Video>age:  NO"},
+                                {"name":"Video>presence:  NO"},
+                                {"name":"Video>mood:  NO"},
+                                {"name":"Video>looking at:  YES"},
+
+                                {"name":"Gaze:  YES"},
+                                {"name":"Gaze>looking at:  NO"}
+                                ]}
+                    ]
+                },
+
+
+
+            ]
+        };

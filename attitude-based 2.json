@@ -1,0 +1,18 @@
+
+        {
+            "name": "CLUSTER",
+            "children": [
+                {
+                    "name": "Cluster 0 (1246 instances):",
+                    "children": [
+                        { "name": "WHO",
+                            "children":[{"name":"Unknown:  NO"},{"name":"Colleague:  NO"},
+                                {"name":"Friend:  WHAT"},{"name":"Own device:  YES"},{"name":"Business:  NO"},
+                                {"name":"Employer:  WHAT"},{"name":"Government:  NO"}]}
+                    ]
+                },
+
+                { "name": "Cluster 1 (1554 instances):",
+                    "children":[{"name":"NO"}]}
+            ]
+        };

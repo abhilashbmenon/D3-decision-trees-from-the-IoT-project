@@ -1,0 +1,65 @@
+ {
+            "name": "CLUSTER",
+            "children": [
+
+
+                { "name": "Cluster 0 (74 users):",
+                    "children":[{"name":"NO"}]},
+
+
+                {
+                    "name": "Cluster 1 (77 users):",
+                    "children": [
+                        { "name": "WHO",
+                            "children":[{"name":"Unknown:  NO"},{"name":"Colleague:  NO"},
+                                {"name":"Friend:  NO"},{"name":"Own device:  WHAT","children":[{"name":"PhoneID: YES"},
+                                    {"name":"PhoneID>identity:  YES"},
+
+                                    {"name":"Location:  PERSISTENCE"},
+                                    {"name":"Location>presence:  YES"},
+
+                                    {"name":"Voice:  NO"},
+                                    {"name":"Voice>gender:  YES"},
+                                    {"name":"Voice>age :  YES"},
+                                    {"name":"Voice>identity:  YES"},
+                                    {"name":"Voice>presence:  YES"},
+                                    {"name":"Voice>mood:  YES"},
+
+                                    {"name":"Photo:  YES"},
+                                    {"name":"Photo>gender:  WHERE"},
+                                    {"name":"Photo>age:  NO"},
+                                    {"name":"Photo>identity:  YES"},
+                                    {"name":"Photo>presence:  NO"},
+                                    {"name":"Photo>mood:  NO"},
+
+                                    {"name":"Video:  NO"},
+                                    {"name":"Video>gender:  NO"},
+                                    {"name":"Video>age:  YES"},
+                                    {"name":"Video>presence:  NO"},
+                                    {"name":"Video>mood:  YES"},
+                                    {"name":"Video>looking at:  PERSISTENCE"},
+
+                                    {"name":"Gaze:  PERSISTENCE"},
+                                    {"name":"Gaze>looking at:  YES"}]},{"name":"Business:  NO"},
+                                {"name":"Employer:  NO"},{"name":"Government:  NO"}]}
+                    ]
+                },
+
+                {
+                    "name": "Cluster 2 (49 users):",
+                    "children": [
+                        { "name": "WHO",
+                            "children":[{"name":"Unknown:  NO"},{"name":"Colleague:  REASON", "children":[{"name":"Safety purposes:  YES"},
+                                {"name":"Commercial purposes:  NO"},
+                                {"name":"Social-related purposes: YES"},
+                                {"name":"Your Convenience:  YES"},
+                                {"name":"Health-related purposes:  WHERE"},
+                                {"name":"None:  NO"}]},
+                                {"name":"Friend:  YES"},{"name":"Own device:  YES"},{"name":"Business:  YES"},
+                                {"name":"Employer:  YES"},{"name":"Government:  NO"}]}
+                    ]
+                }
+
+
+            ]
+        };

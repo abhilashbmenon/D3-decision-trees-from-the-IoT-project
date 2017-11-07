@@ -1,0 +1,28 @@
+{
+            "name": "CLUSTER",
+            "children": [
+
+
+
+                {"name": "Cluster 0 (1204 instances):",
+                    "children": [
+                        { "name": "WHO",
+                            "children":[{"name":"Unknown:  NO"},{"name":"Colleague:  NO"},
+                                {"name":"Friend:  NO"},{"name":"Own device:  YES"},{"name":"Business:  NO"},
+                                {"name":"Employer:  NO"},{"name":"Government:  NO"}]}
+                    ]},
+                {
+                    "name": "Cluster 1 (714 instances):",
+                    "children": [
+                        { "name": "WHO",
+                            "children":[{"name":"Unknown:  NO"},{"name":"Colleague:  NO"},
+                                {"name":"Friend:  YES"},{"name":"Own device:  YES"},{"name":"Business:  YES"},
+                                {"name":"Employer:  YES"},{"name":"Government:  NO"}]}
+                    ]
+                },
+
+                { "name": "Cluster 2 (882 instances):",
+                    "children":[{"name":"NO"}]}
+
+            ]
+        };

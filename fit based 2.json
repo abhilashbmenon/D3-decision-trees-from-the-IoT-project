@@ -1,0 +1,80 @@
+ {
+            "name": "CLUSTER",
+            "children": [
+
+
+                { "name": "Cluster 0 (100 users):",
+                    "children":[{"name":"NO"}]},
+
+                {
+                    "name": "Cluster 1: (100 users)",
+                    "children": [
+                        { "name": "WHO",
+                            "children":[{"name":"Unknown:  NO"},{"name":"Colleague:  NO"},
+                                {"name":"Friend","children":[{"name":"PhoneID:  PERSISTENCE"},
+                                    {"name":"PhoneID>identity:  NO"},
+
+                                    {"name":"Location:  NO"},
+                                    {"name":"Location>presence:  YES"},
+
+                                    {"name":"Voice:  NO"},
+                                    {"name":"Voice>gender:  NO"},
+                                    {"name":"Voice>age :  YES"},
+                                    {"name":"Voice>identity:  YES"},
+                                    {"name":"Voice>presence:  YES"},
+                                    {"name":"Voice>mood:  NO"},
+
+                                    {"name":"Photo:  YES"},
+                                    {"name":"Photo>gender:  NO"},
+                                    {"name":"Photo>age:  NO"},
+                                    {"name":"Photo>identity:  YES"},
+                                    {"name":"Photo>presence:  YES"},
+                                    {"name":"Photo>mood:  YES"},
+
+                                    {"name":"Video:  YES"},
+                                    {"name":"Video>gender:  NO"},
+                                    {"name":"Video>age:  YES"},
+                                    {"name":"Video>presence:  YES"},
+                                    {"name":"Video>mood:  YES"},
+                                    {"name":"Video>looking at:  PERSISTENCE"},
+
+                                    {"name":"Gaze:  PERSISTENCE"},
+                                    {"name":"Gaze>looking at:  NO"}
+
+                                ]},{"name":"Own device:  YES"},{"name":"Business:  NO"},
+                                {"name":"Employer","children":[{"name":"PhoneID:  NO"},
+                                    {"name":"PhoneID>identity:  PERSISTENCE"},
+
+                                    {"name":"Location:  NO"},
+                                    {"name":"Location>presence:  YES"},
+
+                                    {"name":"Voice:  YES"},
+                                    {"name":"Voice>gender:  YES"},
+                                    {"name":"Voice>age :  YES"},
+                                    {"name":"Voice>identity:  WHERE"},
+                                    {"name":"Voice>presence:  YES"},
+                                    {"name":"Voice>mood:  NO"},
+
+                                    {"name":"Photo:  YES"},
+                                    {"name":"Photo>gender:  YES"},
+                                    {"name":"Photo>age:  YES"},
+                                    {"name":"Photo>identity:  YES"},
+                                    {"name":"Photo>presence:  WHERE"},
+                                    {"name":"Photo>mood:  NO"},
+
+                                    {"name":"Video:  NO"},
+                                    {"name":"Video>gender:  NO"},
+                                    {"name":"Video>age:  PERSISTENCE"},
+                                    {"name":"Video>presence:  PERSISTENCE"},
+                                    {"name":"Video>mood:  NO"},
+                                    {"name":"Video>looking at:  NO"},
+
+                                    {"name":"Gaze:  NO"},
+                                    {"name":"Gaze>looking at:  NO"}
+                                ]},{"name":"Government:  NO"}]}
+                    ]
+                }
+
+
+            ]
+        };
